@@ -1,3 +1,5 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.C:/Users/joyal/Desktop/Learning/Generative[[:space:]]Ai/Music-Generation-with-Recurrent-Neural-Networks/training_inputs.npy filter=lfs diff=lfs merge=lfs -text
 /Audio/Testing/MIDI-Unprocessed_SMF_02_R1_2004_01-05_ORIG_MID--AUDIO_02_R1_2004_05_Track05_wav.midi filter=lfs diff=lfs merge=lfs -text
 /Audio/Testing/MIDI-Unprocessed_SMF_05_R1_2004_01_ORIG_MID--AUDIO_05_R1_2004_02_Track02_wav.midi filter=lfs diff=lfs merge=lfs -text
 /Audio/Testing/MIDI-Unprocessed_SMF_13_01_2004_01-05_ORIG_MID--AUDIO_13_R1_2004_05_Track05_wav.midi filter=lfs diff=lfs merge=lfs -text
