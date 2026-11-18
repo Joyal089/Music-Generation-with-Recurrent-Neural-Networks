@@ -28,7 +28,7 @@ pip install torch pretty_midi numpy scikit-learn
 python "Music Generation with LSTM.py"
 ```
 
-Before running, change `training_folder` and `testing_folder` at the top of the script to the `Audio/Training` and `Audio/Testing` folders of your copy. Some files are stored with Git LFS, so run `git lfs pull` after cloning.
+The script finds the `Audio/Training` and `Audio/Testing` folders relative to its own location, so it works from any clone. Some files are stored with Git LFS, so run `git lfs pull` after cloning.
 
 ## Data
 

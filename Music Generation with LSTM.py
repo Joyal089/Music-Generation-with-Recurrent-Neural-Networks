@@ -7,8 +7,9 @@ import torch.nn as nn
 import torch.optim as optim
 
 # Paths for training and testing data
-training_folder = "C:/Users/joyal/Desktop/Learning/Generative Ai/Music-Generation-with-Recurrent-Neural-Networks/Audio/Training"
-testing_folder = "C:/Users/joyal/Desktop/Learning/Generative Ai/Music-Generation-with-Recurrent-Neural-Networks/Audio/Testing"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+training_folder = os.path.join(BASE_DIR, "Audio", "Training")
+testing_folder = os.path.join(BASE_DIR, "Audio", "Testing")
 
 # Function to extract notes from a MIDI file
 def extract_notes(midi_file):
